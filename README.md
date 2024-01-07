@@ -1,4 +1,4 @@
-# Super Mario Kart ZX: Community Editon
+# Super Mario Kart ZX: Community Edition
 Community Edition of Super Mario Kart ZX.
 
 ### What is Super Mario Kart ZX?
