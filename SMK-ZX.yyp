@@ -6,7 +6,9 @@
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":2242152242467054,},
   ],
   "configs": {
-    "children": [],
+    "children": [
+      {"children":[],"name":"No Signing",},
+    ],
     "name": "Default",
   },
   "defaultScriptType": 1,
