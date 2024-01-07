@@ -1,7 +1,10 @@
 {
-    "id": "1034ec5b-a1bb-4110-b8e6-ffc808539483",
-    "modelName": "GMShader",
-    "mvc": "1.0",
-    "name": "sh_blend",
-    "type": 1
+  "resourceType": "GMShader",
+  "resourceVersion": "1.0",
+  "name": "sh_blend",
+  "parent": {
+    "name": "Shaders",
+    "path": "folders/Shaders.yy",
+  },
+  "type": 1,
 }

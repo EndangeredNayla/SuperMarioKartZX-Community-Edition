@@ -1,8 +1,11 @@
 {
-    "id": "14b95737-7d1c-46da-94a1-18dcd4b8654f",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "keyboard_ini",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "keyboard_ini",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
 }

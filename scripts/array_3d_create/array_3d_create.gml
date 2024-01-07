@@ -3,19 +3,23 @@
 ///@param ysize desc
 ///@param zsize desc
 ///@param value desc
-var mid=ds_map_create()
-var xs=argument0
-var ys=argument1
-var zs=argument2
-var val=argument3
-for (xi=0;xi<xs;xi++)
-{
-	for (yi=0;yi<ys;yi++)
+function array_3d_create(argument0, argument1, argument2, argument3) {
+	var mid=ds_map_create()
+	var xs=argument0
+	var ys=argument1
+	var zs=argument2
+	var val=argument3
+	for (xi=0;xi<xs;xi++)
 	{
-		for (zi=0;zi<zs;zi++)
+		for (yi=0;yi<ys;yi++)
 		{
-			ds_map_add(mid,string(xi)+","+string(yi)+","+string(zi),val)
+			for (zi=0;zi<zs;zi++)
+			{
+				ds_map_add(mid,string(xi)+","+string(yi)+","+string(zi),val)
+			}
 		}
 	}
+	return(mid)
+
+
 }
-return(mid)

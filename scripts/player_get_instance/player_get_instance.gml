@@ -1,9 +1,13 @@
 ///@param player
-P=argument0
-with obj_player
-{
-	if player=other.P
+function player_get_instance(argument0) {
+	P=argument0
+	with obj_player
 	{
-		return(id)
+		if player=other.P
+		{
+			return(id)
+		}
 	}
+
+
 }

@@ -1,8 +1,11 @@
 {
-    "id": "f01135be-b139-41e5-b61f-d1ad464135d5",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "camera_movement",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "camera_movement",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "Scripts",
+    "path": "folders/Scripts.yy",
+  },
 }

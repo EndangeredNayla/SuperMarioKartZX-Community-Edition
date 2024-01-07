@@ -110,22 +110,25 @@ if !global.joycon and !instance_exists(obj_gamepad)
 				if gamepad_is_connected(j) and !alreadyc
 				{
 					if gamepad_get_description(j)!="Steam Virtual GamePad"
+					// Assuming 'j' is the index of the gamepad you want to check
+					var newVar = 1;
+
+					// Assuming 'control' is an array to store the gamepad indices
+					for (var k = 0; k < 4; k++)
 					{
-						var new=1
-						for (var k=0;k<4;k++)
-						{
-							if control[k]=j
-							{
-								new=0
-							}
-						}
-						if new
-						{
-							//show_message(gamepad_get_description(j))
-							control[i]=j
-							control_number++
-							alreadyc=1
-						}
+					    // Use '==' for comparison, not '=' which is an assignment
+					    if (control[k] == j)
+					    {
+					        newVar = 0;
+					    }
+					}
+
+					if (newVar)
+					{
+					    // Assuming 'i' is the index you want to use in the 'control' array
+					    control[i] = j;
+					    control_number++;
+					    alreadyc = 1;
 					}
 				}
 			}

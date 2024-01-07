@@ -1,1 +1,5 @@
-camera_movement(0)
+function camera_P1() {
+	camera_movement(0)
+
+
+}

@@ -1,8 +1,11 @@
 {
-    "id": "b65e464d-be57-498f-9962-c46f61b68d08",
-    "modelName": "GMScript",
-    "mvc": "1.0",
-    "name": "x3d_create_vplane",
-    "IsCompatibility": false,
-    "IsDnD": false
+  "resourceType": "GMScript",
+  "resourceVersion": "1.0",
+  "name": "x3d_create_vplane",
+  "isCompatibility": false,
+  "isDnD": false,
+  "parent": {
+    "name": "x3d",
+    "path": "folders/Scripts/x3d.yy",
+  },
 }

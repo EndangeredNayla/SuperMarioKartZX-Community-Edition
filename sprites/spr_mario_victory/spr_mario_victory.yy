@@ -1,92 +1,76 @@
 {
-    "id": "d6ff6c72-a8f2-4a85-9f26-f459f8da6812",
-    "modelName": "GMSprite",
-    "mvc": "1.12",
-    "name": "spr_mario_victory",
-    "For3D": false,
-    "HTile": false,
-    "VTile": false,
-    "bbox_bottom": 34,
-    "bbox_left": 0,
-    "bbox_right": 29,
-    "bbox_top": 0,
-    "bboxmode": 0,
-    "colkind": 1,
-    "coltolerance": 0,
-    "edgeFiltering": false,
-    "frames": [
-        {
-            "id": "145e9672-935d-4440-b975-bb88398c5e45",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "d6ff6c72-a8f2-4a85-9f26-f459f8da6812",
-            "compositeImage": {
-                "id": "be326414-09c4-46d5-9aa9-56d3f6c141b2",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "145e9672-935d-4440-b975-bb88398c5e45",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "4c99cc90-35d8-4788-a7cd-5f75b2161663",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "145e9672-935d-4440-b975-bb88398c5e45",
-                    "LayerId": "202115e6-7fef-4091-b17b-ce4e5fef4f06"
-                }
-            ]
-        },
-        {
-            "id": "2fc0d74e-100f-44b5-b67f-795dfdda3cdc",
-            "modelName": "GMSpriteFrame",
-            "mvc": "1.0",
-            "SpriteId": "d6ff6c72-a8f2-4a85-9f26-f459f8da6812",
-            "compositeImage": {
-                "id": "d42208ca-b15f-46a5-8708-4730062450dc",
-                "modelName": "GMSpriteImage",
-                "mvc": "1.0",
-                "FrameId": "2fc0d74e-100f-44b5-b67f-795dfdda3cdc",
-                "LayerId": "00000000-0000-0000-0000-000000000000"
-            },
-            "images": [
-                {
-                    "id": "21aef4a0-9825-4178-bfdc-9f64cd1be0f6",
-                    "modelName": "GMSpriteImage",
-                    "mvc": "1.0",
-                    "FrameId": "2fc0d74e-100f-44b5-b67f-795dfdda3cdc",
-                    "LayerId": "202115e6-7fef-4091-b17b-ce4e5fef4f06"
-                }
-            ]
-        }
-    ],
-    "gridX": 0,
-    "gridY": 0,
-    "height": 35,
-    "layers": [
-        {
-            "id": "202115e6-7fef-4091-b17b-ce4e5fef4f06",
-            "modelName": "GMImageLayer",
-            "mvc": "1.0",
-            "SpriteId": "d6ff6c72-a8f2-4a85-9f26-f459f8da6812",
-            "blendMode": 0,
-            "isLocked": false,
-            "name": "default",
-            "opacity": 100,
-            "visible": true
-        }
-    ],
-    "origin": 4,
-    "originLocked": false,
-    "playbackSpeed": 15,
+  "resourceType": "GMSprite",
+  "resourceVersion": "1.0",
+  "name": "spr_mario_victory",
+  "bbox_bottom": 34,
+  "bbox_left": 0,
+  "bbox_right": 29,
+  "bbox_top": 0,
+  "bboxMode": 0,
+  "collisionKind": 1,
+  "collisionTolerance": 0,
+  "DynamicTexturePage": false,
+  "edgeFiltering": false,
+  "For3D": false,
+  "frames": [
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"145e9672-935d-4440-b975-bb88398c5e45",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"2fc0d74e-100f-44b5-b67f-795dfdda3cdc",},
+  ],
+  "gridX": 0,
+  "gridY": 0,
+  "height": 35,
+  "HTile": false,
+  "layers": [
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"202115e6-7fef-4091-b17b-ce4e5fef4f06","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+  ],
+  "nineSlice": null,
+  "origin": 4,
+  "parent": {
+    "name": "player celebrate",
+    "path": "folders/Sprites/results screen/player celebrate.yy",
+  },
+  "preMultiplyAlpha": false,
+  "sequence": {
+    "resourceType": "GMSequence",
+    "resourceVersion": "1.4",
+    "name": "",
+    "autoRecord": true,
+    "backdropHeight": 1080,
+    "backdropImageOpacity": 0.5,
+    "backdropImagePath": "",
+    "backdropWidth": 1920,
+    "backdropXOffset": 0.0,
+    "backdropYOffset": 0.0,
+    "events": {"resourceType":"KeyframeStore<MessageEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "eventStubScript": null,
+    "eventToFunction": {},
+    "length": 2.0,
+    "lockOrigin": false,
+    "moments": {"resourceType":"KeyframeStore<MomentsEventKeyframe>","resourceVersion":"1.0","Keyframes":[],},
+    "playback": 1,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
-    "premultiplyAlpha": false,
-    "sepmasks": false,
-    "swatchColours": null,
-    "swfPrecision": 2.525,
-    "textureGroupId": "1225f6b0-ac20-43bd-a82e-be73fa0b6f4f",
-    "type": 0,
-    "width": 30,
-    "xorig": 15,
-    "yorig": 17
+    "showBackdrop": true,
+    "showBackdropImage": false,
+    "timeUnits": 1,
+    "tracks": [
+      {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"145e9672-935d-4440-b975-bb88398c5e45","path":"sprites/spr_mario_victory/spr_mario_victory.yy",},},},"Disabled":false,"id":"1d291e05-049d-43af-a0f2-e5766dbe925f","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"2fc0d74e-100f-44b5-b67f-795dfdda3cdc","path":"sprites/spr_mario_victory/spr_mario_victory.yy",},},},"Disabled":false,"id":"1dc2ea68-f360-4e36-a008-f05cb752e96e","IsCreationKey":false,"Key":1.0,"Length":1.0,"Stretch":false,},
+          ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
+    ],
+    "visibleRange": null,
+    "volume": 1.0,
+    "xorigin": 15,
+    "yorigin": 17,
+  },
+  "swatchColours": null,
+  "swfPrecision": 2.525,
+  "textureGroupId": {
+    "name": "Default",
+    "path": "texturegroups/Default",
+  },
+  "type": 0,
+  "VTile": false,
+  "width": 30,
 }
